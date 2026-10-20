@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS game_genres (
 CREATE TABLE IF NOT EXISTS people (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     wikidata_qid TEXT UNIQUE,
-    name TEXT NOT NULL,
+    name TEXT NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS game_directors (
